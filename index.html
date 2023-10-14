@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>24/7 Cleaning Company</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <header>
+        <img src="img/logo.jpg" />
+        <nav id="desktop-nav">
+            <a href="#">Home</a>
+            <a href="#">Services</a>
+            <a href="#">Get a quote</a>
+        </nav>
+        <div id="mobile-container">
+            <a href="javascript:toggleNav()" id="hamburger"><img src="img/menu.svg" ></a>
+
+            <nav id="mobile-nav">
+                <a href="#">Home</a>
+                <a href="#">Services</a>
+                <a href="#">Get a quote</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div id="maintitle">
+            <div id="maintitletext">
+                <h2>House clearance and cleaning services</h2>
+                <p>20+ years of experience</p>
+                <a class="button secondary" href="#about">Learn more</a>
+            </div>
+
+            <section id="about">
+                <h2>About us</h2>
+                <hr>
+                <p>We are a family run business with core values of trust and value for money at the heart of everything we do. We are not a multi-national franchise. Our business is run by myself Will and joint business owner Margaret. We offer carpet cleaning, sofa cleaning, leather sofa cleaning, house clearing, end of tenancy cleaning, office cleaning, pressure washing, gardening services with customer focused service</p>
+            </section>
+            
+            <section>
+                <h2>Services we offer</h2>
+                <hr>
+                <div id="services">
+                    <div class="service">
+                        <h3>Carpet cleaning</h3>
+                        <p>Our trained staff have the experience & training to deal with all stains, with over 20 years of knowledge in the carpet cleaning business.</p>
+                        <a class="button">Learn more</a>
+                    </div>
+                    <div class="service">
+                        <h3>Sofa cleaning</h3>
+                        <p>We are fully trained to the highest standard using industry leading machinery & cleaning products, for both fabric & leather sofa cleaning using only child and pet friendly products.</p>
+                        <a class="button">Learn more</a>
+                    </div>
+                    <div class="service">
+                        <h3>Driveway cleaning</h3>
+                        <p>We work hard to provide a quality reliable service, with customer satisfaction, using the most powerful pressure washing equipment, delivering over 3000psi of pressure for the ultimate driveway clean.</p>
+                        <a class="button">Learn more</a>
+                    </div>
+                    <div class="service">
+                        <h3>House clearance</h3>
+                        <p>We can clear everything requested, from bric a bric, clothes, general furniture and junk, we are more than happy to clear garden sheds, garages and any out buildings. We recycle 95% of all items we remove.</p>
+                        <a class="button">Learn more</a>
+                    </div>
+                </div>           
+            </section>
+
+            <section>
+                <h2>Enquiries</h2>
+                <form>
+                    <label for="username">Your name</label>
+                    <input id="username" type="text" placeholder="Enter your name here">
+                    <label for="username">Email address</label>
+                    <input id="username" type="email" placeholder="Enter your email address here">
+                    <label for="message">Your message</label>
+                    <textarea id="message" type="text" placeholder="Enter your message here"></textarea>
+                    <input type="submit" class="button" value="Send message">
+                </form>
+            </section>
+        </div>
+    </main>
+</body>
+</html>
